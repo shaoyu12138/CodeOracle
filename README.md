@@ -8,8 +8,9 @@
 
 **目录结构**: 你的项目目录应如下所示：
 ```
-    your_project_directory/
-    ├── divination.py        # 你的 Python 脚本
+    CodeLabyrinth/
+    ├── test.py        # 你的 Python 脚本
+    ├── test.ipynb        # 你的 Python ipynb 脚本
     └── assets/
         ├── 64_Gua_Data.json     # 64卦基础数据
         └── 64_Gua_Data_4096.json # 焦氏易林数据
