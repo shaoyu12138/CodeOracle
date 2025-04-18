@@ -8,24 +8,24 @@
 
 **目录结构**: 你的项目目录应如下所示：
 ```
-    CodeLabyrinth/
-    ├── test.py        # 你的 Python 脚本
-    ├── test.ipynb        # 你的 Python ipynb 脚本
-    └── assets/
-        ├── 64_Gua_Data.json     # 64卦基础数据
-        └── 64_Gua_Data_4096.json # 焦氏易林数据
+CodeOracle/
+├── assets/
+│   ├── 64_Gua_Data_4096.json
+│   ├── 64_Gua_Data.json
+│   └── prompt.txt
+├── divination_wrapper.py
+├── gua_lookup.py
+├── README.md
+└── test.ipynb
 ```
+
 **注意事项**：`64_Gua_Data.json`和`64_Gua_Data_4096.json`中的内容是作者手动整理而成，敬请有缘之士使用，以便广播易道。前者包含周易的卦名属性，卦辞爻辞，大象小象，杂卦彖传，内容完备而校对正确。后者取自[中国哲学书电子化计划 - 简体字版](https://ctext.org/jiaoshi-yilin/zhs)，有着更丰富的易于理解的信息。注意，64卦和8卦的卦序与传统的周公孔子卦序有所不同，实际使用了符合二进制表示的卦序排列，详情请阅读[卦序说明](assets/卦序研究/README.md)
 
 ## 如何使用
 
 1.  打开你的终端或命令行工具。
-2.  使用 `cd` 命令切换到包含 `test.py` 脚本所在的目录。
-3.  运行脚本：
-    ```bash
-    python test.py
-    ```
-    或者运行*test.ipynb*的单元格。
+2.  使用 `cd` 命令切换到包含 `test.ipynb` 脚本所在的目录。
+3.  运行`test.ipynb`脚本对应的单元格：
 4.  根据命令行提示，依次输入：
     *   你的性别（0代表男，1代表女）
     *   你所问问题的背景信息
